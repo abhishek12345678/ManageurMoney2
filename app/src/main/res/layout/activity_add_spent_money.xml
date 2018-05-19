@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/li"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#0e5397">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et3"
+        android:hint="Money"
+        android:layout_margin="30dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et4"
+        android:hint="Name" />
+
+    <Button
+         android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/b5"
+        android:text="Add"
+        android:onClick="add"/>
+
+</LinearLayout>

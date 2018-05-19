@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/li"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="1"
+    android:background="#06be4d">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tl1"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:weightSum="1"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="148dp"
+            android:layout_height="72dp"
+            android:layout_weight="1.04"
+            android:text="Month"
+            android:textSize="40dp"/>
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="182dp"
+            android:layout_height="match_parent"
+            android:text="....."
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tl2"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:textSize="50dp"
+        android:layout_weight="0.03" />
+
+    <TextView
+        android:layout_width="124dp"
+        android:layout_height="match_parent"
+        android:id="@+id/tv5"
+        android:text="........"
+        android:layout_weight="0.05"
+        android:textSize="30dp"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tl3"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:text="Spend"
+            android:textSize="50dp"
+            android:layout_weight="0.03" />
+
+        <TextView
+            android:layout_width="124dp"
+            android:layout_height="match_parent"
+            android:id="@+id/tv7"
+            android:text="........"
+            android:textSize="30dp"
+            android:layout_weight="0.03" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tl4"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textSize="50dp"
+            android:layout_weight="0.03" />
+
+        <TextView
+            android:layout_width="124dp"
+            android:layout_height="match_parent"
+            android:id="@+id/tv9"
+            android:text="........"
+            android:layout_weight="0.05"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:divider="#c41337"
+        android:dividerHeight="2dp"/>
+</LinearLayout>

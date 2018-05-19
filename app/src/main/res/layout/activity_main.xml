@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/li"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#11079348"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Welcome"
+        android:textColor="#2b56cc"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="140dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/mum"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:text="show Account"
+        android:onClick="showAccount"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b2"
+        android:text="Spend Money"
+        android:onClick="spendMoney"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b3"
+        android:text="Create Account"
+        android:onClick="createAccount"
+        android:layout_margin="8dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b4"
+        android:text="Delete Account"
+        android:onClick="deleteAccount"
+        android:layout_margin="8dp"/>
+</LinearLayout>
+
